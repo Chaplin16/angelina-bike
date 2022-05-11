@@ -1,0 +1,30 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    width:100%; 
+    font-size: 1.2rem;
+    min-height: 100%!important;
+}
+
+
+$grey: #3f3f3f;
+$orange: #ea6e27;
+$vert: #127e17;
+
+.color{
+    color:$grey;
+}
+
+
+.navbar{
+    position: fixed;
+    opacity: 1;
+    background-color: #fff;
+    z-index: 5;
+}
+.nav-link{
+    column-gap: 2rem;
+    &:hover{
+        color:$orange!important;
+    }
+}

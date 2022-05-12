@@ -36,12 +36,12 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light position-fixed w-100 ">
             <div>
-                <h1>
-                    <a class="navbar-brand text-dark fw-bolder" href="index.html">
-                        Angélina Bike <br> la Grande Motte
+                <p>
+                    <a class="navbar-brand fw-bolder pb-0 mb-0" href="index.html">
+                        <img src="images/location-velo-logo.jpg">
                     </a>
-                </h1>
-                <p class="phone text-dark fw-bolder">
+                </p>
+                <p class="phone color fw-bolder pt-0 mt-0">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                         class="bi bi-telephone-fill" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
@@ -70,9 +70,10 @@
         </nav>
     </header>
     <main class="pt-5">
-        <div class="mt-5 pt-5 d-flex align-items-center justify-content-around">
-            <h2 class="pt-5 text-center lead fw-bold">Pratique, rapide, convivial, agréable, le vélo c 'est l'idéal à la
-                Grande-Motte!</h2>
+        <div class="mt-5 pt-5 d-flex align-items-center justify-content-center">
+            <h1 class="pt-5 text-center lead fw-bold">
+                Location de vélo <br>Pratique, rapide, convivial, agréable, <br>le vélo c 'est l'idéal <br>à la
+                Grande-Motte!</h1>
             <img src="images/location-velo-grande-motte-toute-la-famille.png"
                 alt="location de vélo à la grande motte pour toute la famille" />
         </div>
@@ -88,28 +89,63 @@
                 </div>
             </div>
         </section>
-        <h3 class="text-center">Angélina <br>Bike</h3>
-        <div class="text text-center pe-3 ps-3">
-            Venez louer votre vélo de haute qualité, toute l'année. Partez à la découverte de notre ville de la Grande-Motte et dans notre belle région grâce à nos locations de vélos pour toute la famille.  Nous garantissons la qualité de nos produits en proposant uniquement de grandes marques disponibles dans plusieurs tailles.
+        <h2 class="text-center">Angélina <br>Bike</h2>
+        <div class=" text text-center pe-3 ps-3">
+            Venez louer votre vélo de haute qualité, toute l'année. Partez à la découverte de notre ville de la
+            Grande-Motte et dans notre belle région grâce à nos locations de vélos pour toute la famille. Nous
+            garantissons la qualité de nos produits en proposant uniquement de grandes marques disponibles dans
+            plusieurs tailles. Plus d'attente dans les embouteillages, plus de perte de temps pour trouver une place de parking, venez louer un ou plusieurs deux roues directement dans nos locaux ou <a href="#">effectuer une réservation</a> en ligne, nous vous répondrons dans les plus brefs délais.
 
         </div>
+        <!-- cards de prestations de services -->
         <section id="services" class="service d-flex pt-5 flex-wrap justify-content-center">
-    
+            <!-- insertion via array-services.js et card-services.js-->
+        </section>
+        <section class="mb-5">
+            <div class="bike pt-5 d-flex m-auto flex-wrap justify-content-center">
+                <div class="col-lg-6 col-md-9">
+                    <h4>Vaste choix de vélos </h4>
+                    <p>Angélina Bike est l'endroit de référence pour louer son vélo. Avec de nombreuses bicyclettes,
+                        électriques ou non, et un grand nombre de tailles, vous trouverez le deux roues qui vous convient
+                        sans difficulté.</p>
+                </div>
+                <img class="img-bike" src="images/photos/location-velo-grande-motte-toute-la-famille.jpeg"
+                    alt="location de vélo à la grande motte pour toute la famille">
+            </div>
+            <div class="bike pt-5 d-flex m-auto flex-wrap justify-content-center">
+                <div class="col-lg-6 col-md-9">
+                    <h4>A chacun son deux roues </h4>
+                    <p> Location pour toute la famille : des scooters et des quads pour les adultes ainsi que des motos, draisiennes et vélos en 8, 10, 12, 14 et 16 pouces pour les enfants.</p>
+                </div>
+                <img class="img-bike" src="images/photos/location-velo-grande-motte-moto-enfant-draisienne.jpeg"
+                    alt="location de deux roues à la grande motte">
+            </div>
+            <div class="bike pt-5 d-flex m-auto flex-wrap justify-content-center">
+                <div class="col-lg-6 col-md-9">
+                    <h4>Magasin en plein coeur de ville </h4>
+                    <p>Très bien situé, Angélina Bike se trouve à coté de grands parkings pour se garer facilement et
+                        quasiment sur le front de mer, en zone piétonne.
+                        <a href="#">Contactez nous</a> pour vérifier de la disponibilité de nos articles
+                    </p>
+                </div>
+                <img class="img-bike" src="images/photos/location-velo-grande-motte-scooter-trottinettes-magasin.jpeg"
+                    alt="location de vélo à la grande motte magasin au centre ville">
+            </div>
         </section>
     </main>
     <footer>
-        <div class="footer w-100 d-flex justify-content-center align-items-center">
+        <div class="footer w-100 bg--color pb-2 d-flex justify-content-center align-items-center">
             <img class=" h-auto pt-3 pb-3" src="images/etiquette-FR-kit-com.png"
                 alt="site financé par le plan relance du gouvernement">
             <div class="formality">
-                <p class="copyright text-dark text-center m-auto">
-                    © 2021 . Tous droits réservés
+                <p class="copyright text-dark text-center m-auto mb-0 text-uppercase">
+                    © 2022 Angelina Bike. 
                 </p>
-                <div class="d-flex align-items-center  pt-2 flex-column">
-                    <img src="images/mermaidSmall.png" class="mermaid ms-2 h-auto"
-                        alt="logo de la sirene d'aurore Creation Web" />
-                    <a class="text-decoration-none text-dark" href="https://aurorecreationweb.fr"> Aurore Creation Web
-                    </a>
+                <p class="text-center text-dark">Tous droits réservés</p>
+                <div class="d-flex align-items-center flex-column mt-2">
+                    <img src="images/mermaidSmall.png" class="mermaid ms-2 h-auto w-25 mt-0"
+                        alt="aurore Creation Web logo site internet pas cher" />
+                    <a class="text-decoration-none text-dark fw-bold" href="https://aurorecreationweb.fr"> Aurore Création Web </a>
                     <a href="law.html" class="text-dark fw-normal text-decoration-none">Mentions légales</a>
                 </div>
             </div>

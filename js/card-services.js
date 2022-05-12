@@ -14,7 +14,7 @@ cardServices.forEach(function(element) {
             <div class="card m-2 mb-4" style="width: 15rem; height: auto;">
               
                 <div class="card-body">
-                    <h4 class="card-title text-center border-bottom border-5 ">${element.tray[i].title}</h4>
+                    <h3 class="card-title text-center border-bottom border-5 ">${element.tray[i].title}</h3>
                     <ul>
                         ${newSelect}
                     </ul>

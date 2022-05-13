@@ -16,12 +16,11 @@
     <meta property="og:url" content="https://github.com/Chaplin16/Portfolio">
     <meta property="og:title" content="">
     <meta property="og:description" content="">
-
+    <meta property="og:image" content="">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <link rel="stylesheet" href="style.css" />
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -29,19 +28,20 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
     <title>Location vélo Grande Motte accueil </title>
+
 </head>
 
 <body>
     <!-- NAVBAR -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light position-fixed w-100 ">
+        <nav class="navbar navbar-expand-lg navbar-light position-fixed w-100 mb-0 pb-0">
             <div>
-                <p>
-                    <a class="navbar-brand fw-bolder pb-0 mb-0" href="index.html">
-                        <img src="images/location-velo-logo.jpg">
+                <p class="mb-0">
+                    <a class="navbar-brand fw-bolder" href="index.html">
+                        <img src="images/Location-velo-grande-motte.jpg">
                     </a>
                 </p>
-                <p class="phone color fw-bolder pt-0 mt-0">
+                <p class="phone color fw-bolder pb-0 mb-0">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                         class="bi bi-telephone-fill" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
@@ -60,21 +60,21 @@
                         <a class="nav-link fw-bolder color" href="index.html">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bolder color" href="index.html">Louer un vélo</a>
+                        <a class="nav-link fw-bolder color" href="location.html">Louer un vélo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bolder color" href="infos.html">Nous localiser</a>
+                        <a class="nav-link fw-bolder color" href="contact.html">Nous localiser</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
     <main class="pt-5">
-        <div class="mt-5 pt-5 d-flex align-items-center justify-content-center">
+        <div class="section-top mt-5 pt-5 d-flex align-items-center justify-content-center">
             <h1 class="pt-5 text-center lead fw-bold">
-                Location de vélo <br>Pratique, rapide, convivial, agréable, <br>le vélo c 'est l'idéal <br>à la
+                Location de vélo <br>Pratique, rapide, convivial, agréable, le vélo c 'est l'idéal à la
                 Grande-Motte!</h1>
-            <img src="images/location-velo-grande-motte-toute-la-famille.png"
+            <img class="img" src="images/location-velo-grande-motte-toute-la-famille.png"
                 alt="location de vélo à la grande motte pour toute la famille" />
         </div>
         <!-- carrousel de photos -->
@@ -89,24 +89,28 @@
                 </div>
             </div>
         </section>
-        <h2 class="text-center">Angélina <br>Bike</h2>
-        <div class=" text text-center pe-3 ps-3">
-            Venez louer votre vélo de haute qualité, toute l'année. Partez à la découverte de notre ville de la
-            Grande-Motte et dans notre belle région grâce à nos locations de vélos pour toute la famille. Nous
-            garantissons la qualité de nos produits en proposant uniquement de grandes marques disponibles dans
-            plusieurs tailles. Plus d'attente dans les embouteillages, plus de perte de temps pour trouver une place de parking, venez louer un ou plusieurs deux roues directement dans nos locaux ou <a href="#">effectuer une réservation</a> en ligne, nous vous répondrons dans les plus brefs délais.
-
-        </div>
         <!-- cards de prestations de services -->
-        <section id="services" class="service d-flex pt-5 flex-wrap justify-content-center">
+        <section id="services" class="service d-flex flex-wrap justify-content-evenly">
             <!-- insertion via array-services.js et card-services.js-->
         </section>
+        <h2 class="text-center">Angélina <br>Bike</h2>
+        <div class=" text text-center pe-3 ps-3">
+            Venez louer votre vélo de haute qualité, toute l'année ou réserver le via <a href="location.html">ce formulaire</a> en avance. Partez à la découverte de notre ville de la
+            Grande-Motte et dans notre belle région grâce à nos locations de vélos pour toute la famille. Nous
+            garantissons la qualité de nos produits en proposant uniquement de grandes marques disponibles dans
+            plusieurs tailles. Plus d'attente dans les embouteillages, plus de perte de temps pour trouver une place de
+            parking, venez louer un ou plusieurs deux roues directement dans nos locaux ou <a href="location.html">effectuer une
+                réservation</a> en ligne, nous vous répondrons dans les plus brefs délais.
+
+        </div>
+
         <section class="mb-5">
             <div class="bike pt-5 d-flex m-auto flex-wrap justify-content-center">
                 <div class="col-lg-6 col-md-9">
                     <h4>Vaste choix de vélos </h4>
                     <p>Angélina Bike est l'endroit de référence pour louer son vélo. Avec de nombreuses bicyclettes,
-                        électriques ou non, et un grand nombre de tailles, vous trouverez le deux roues qui vous convient
+                        électriques ou non, et un grand nombre de tailles, vous trouverez le deux roues qui vous
+                        convient
                         sans difficulté.</p>
                 </div>
                 <img class="img-bike" src="images/photos/location-velo-grande-motte-toute-la-famille.jpeg"
@@ -115,7 +119,8 @@
             <div class="bike pt-5 d-flex m-auto flex-wrap justify-content-center">
                 <div class="col-lg-6 col-md-9">
                     <h4>A chacun son deux roues </h4>
-                    <p> Location pour toute la famille : des scooters et des quads pour les adultes ainsi que des motos, draisiennes et vélos en 8, 10, 12, 14 et 16 pouces pour les enfants.</p>
+                    <p> Location pour toute la famille : des scooters et des quads pour les adultes ainsi que des motos,
+                        draisiennes et vélos en 8, 10, 12, 14 et 16 pouces pour les enfants.</p>
                 </div>
                 <img class="img-bike" src="images/photos/location-velo-grande-motte-moto-enfant-draisienne.jpeg"
                     alt="location de deux roues à la grande motte">
@@ -139,13 +144,14 @@
                 alt="site financé par le plan relance du gouvernement">
             <div class="formality">
                 <p class="copyright text-dark text-center m-auto mb-0 text-uppercase">
-                    © 2022 Angelina Bike. 
+                    © 2022 Angelina Bike.
                 </p>
                 <p class="text-center text-dark">Tous droits réservés</p>
                 <div class="d-flex align-items-center flex-column mt-2">
                     <img src="images/mermaidSmall.png" class="mermaid ms-2 h-auto w-25 mt-0"
                         alt="aurore Creation Web logo site internet pas cher" />
-                    <a class="text-decoration-none text-dark fw-bold" href="https://aurorecreationweb.fr"> Aurore Création Web </a>
+                    <a class="text-decoration-none text-dark fw-bold" href="https://aurorecreationweb.fr"> Aurore
+                        Création Web </a>
                     <a href="law.html" class="text-dark fw-normal text-decoration-none">Mentions légales</a>
                 </div>
             </div>

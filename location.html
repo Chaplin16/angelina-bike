@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content=" Aurore Creation Web">
+        <meta name="description" content="" />
+    
+        <meta name="robots" content="all" />
+        <meta name="google-site-verification" content="" />
+    
+        <meta property="og:site_name" content="">
+        <meta property="og:type" content="site web">
+        <meta property="og:url" content="https://github.com/Chaplin16/Portfolio">
+        <meta property="og:title" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+        
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+        <link rel="stylesheet" href="style.css" />
+   
+    <title>Tarifs de location des vélos à la Grande Motte</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light position-fixed w-100 mb-0 pb-0">
+            <div>
+                <p class="mb-0">
+                    <a class="navbar-brand fw-bolder" href="index.html">
+                        <img src="images/Location-velo-grande-motte.jpg">
+                    </a>
+                </p>
+                <p class="phone color fw-bolder pb-0 mb-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg>
+                    06.31.76.61.71
+                </p>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link fw-bolder color" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder color" href="location.html">Louer un vélo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder color" href="contact.html">Nous localiser</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-5">
+        <!-- tableau des prix  -->
+        <div class="price m-auto pt-5 text-center">
+          <table class="table mt-5 table-striped">
+              <h1 class="title fw-bold">TARIFS DE LOCATION DES VELOS</h1>
+              <tbody>
+                  <tr>
+                      <td>de 1 heure à 4 heures :</td>
+                      <td>22 €</td>
+                  </tr>
+                  <tr>
+                      <td>une journée :</td>
+                      <td>35 €</td>
+                  </tr>
+                  <tr>
+                      <td>deux journées :</td>
+                      <td>59 €</td>
+                  </tr>
+                  <tr>
+                    <td>trois journées :</td>
+                    <td>74 €</td>
+                  </tr>
+                  <tr>
+                    <td>la semaine :</td>
+                    <td>99 €</td>
+                  </tr>
+              </tbody>
+          </table>
+          <h2 class="p-3 pt-5 lead fw-bold">RESERVATION <br>
+                via ce formulaire ou par téléphone 06.31.76.61.71</h2>
+        </div>
+        <!-- formualire de contact  -->
+        <section class="form pb-5" id="contact">
+            <h3 class="m-2 pb-3 text-center">Formulaire de contact</h3>
+            <form name="myForm" id="formContact">
+                <label for="username">Nom </label>
+                <input class="username form-field"
+                    type="text" 
+                    name="username" id="username"
+                    title="Veuillez n'écrire que des lettres, entre 2 et 30 caractères" 
+                    pattern="[A-z-_ çàâéèeîïù]{2,30}" placeholder="Jean"
+                    required/>
+                <label for="email">E-mail</label>
+                <input class="email form-field"             
+                    type="email" 
+                    name="email"    
+                    id="email"
+                    title="Veuillez écrire un mail valide"
+                    pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}" 
+                    placeholder="dupond@site.fr" 
+                    required />
+                <label for="message">Votre message</label>
+                <textarea class="message form-control form-field" 
+                    id="message" 
+                    name="message"
+                    minlength="15" 
+                    maxlength="500" 
+                    rows="6"
+                    title="Votre message doit contenir entre 15 et 500 caratères sans caractère spéciaux"
+                    required >
+                </textarea>
+                <label for="phone">Téléphone</label>
+                <input class="phone form-field" 
+                    type="text" 
+                    name="phone" 
+                    id="phone"
+                    title="Veuillez écrire un numéro de téléphone viable" 
+                     />
+                <input type="submit" id="btnSubmitMessage" class="btn_enter mt-3" name="submit" value="Envoyer">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer w-100 bg--color pb-2 d-flex justify-content-center align-items-center">
+            <img class=" h-auto pt-3 pb-3" src="images/etiquette-FR-kit-com.png"
+                alt="site financé par le plan relance du gouvernement">
+            <div class="formality">
+                <p class="copyright text-dark text-center m-auto mb-0 text-uppercase">
+                    © 2022 Angelina Bike.
+                </p>
+                <p class="text-center text-dark">Tous droits réservés</p>
+                <div class="d-flex align-items-center flex-column mt-2">
+                    <img src="images/mermaidSmall.png" class="mermaid ms-2 h-auto w-25 mt-0"
+                        alt="aurore Creation Web logo site internet pas cher" />
+                    <a class="text-decoration-none text-dark fw-bold" href="https://aurorecreationweb.fr"> Aurore
+                        Création Web </a>
+                    <a href="law.html" class="text-dark fw-normal text-decoration-none">Mentions légales</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src= "https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+
+    <script>
+        (function() {
+            emailjs.init('user_izTwa1DWUBn1msswZXxVJ');
+        })() ;
+    </script>
+    <script src="js/form.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

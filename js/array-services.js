@@ -7,7 +7,7 @@ const cardServices = [
                 detail: [
                     "Location de vélos",
                     "Location de trottinettes",
-                    "Location de motos enfant",
+                    "Location de motos",
                     "Location de quads enfant",
                     "Location de 4x4 enfants",
                     "Location de draisiennes",
@@ -35,6 +35,10 @@ const cardServices = [
             {
                 title: "Nos accessoires",
                 detail: [
+                        "Antivols",
+                        "Casques",
+                        "Bande de protection pour pneux",
+                        "Sacoche"
 
                  ],
             }

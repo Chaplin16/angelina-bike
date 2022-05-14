@@ -208,6 +208,16 @@ label {
   color: #000;
 }
 
+.mappy img {
+  box-shadow: 5px 5px 4px #636363;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 580px) {
+  .footer {
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 850px) {
   h1 {
     max-width: 13rem;
@@ -225,9 +235,18 @@ label {
     max-width: 80% !important;
   }
 }
-@media screen and (max-width: 580px) {
-  .footer {
-    flex-direction: column;
+@media screen and (max-width: 1000px) {
+  .mappy {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .mappy div,
+.mappy iframe {
+    width: 80% !important;
+    margin: auto;
+  }
+  .mappy iframe {
+    margin-top: 2rem;
   }
 }
 

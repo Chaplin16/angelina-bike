@@ -215,7 +215,22 @@ label{
     }
 }
 
-@media screen and ( max-width:850px){
+// PAGE CONTACT
+.mappy{
+    img{
+        box-shadow: 5px 5px 4px  #636363;
+        border-radius: 10px;;
+    }
+}
+
+
+@media screen and (max-width: 580px) {
+    .footer{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:850px){
     h1{
         max-width: 13rem;
     }
@@ -231,8 +246,17 @@ label{
     }
 }
 
-@media screen and (max-width: 580px) {
-    .footer{
-        flex-direction: column;
+@media screen and ( max-width:1000px){
+    .mappy{
+        display: flex;
+        flex-direction: column!important;
+        div,
+        iframe{
+            width: 80%!important;
+            margin:auto;
+        }
+        iframe{
+            margin-top:2rem;
+        }
     }
 }

@@ -38,7 +38,9 @@ const cardServices = [
                         "Antivols",
                         "Casques",
                         "Bande de protection pour pneux",
-                        "Sacoche"
+                        "Sacoche",
+                        "chambre à air",
+                        "porte bagage"
 
                  ],
             }

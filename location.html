@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="author" content=" Aurore Creation Web">
-        <meta name="description" content="" />
-    
-        <meta name="robots" content="all" />
-        <meta name="google-site-verification" content="" />
-    
-        <meta property="og:site_name" content="">
-        <meta property="og:type" content="site web">
-        <meta property="og:url" content="https://github.com/Chaplin16/Portfolio">
-        <meta property="og:title" content="">
-        <meta property="og:description" content="">
-        <meta property="og:image" content="">
-        
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-    
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-        <link rel="stylesheet" href="style.css" />
-   
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content=" Aurore Creation Web">
+    <meta name="description" content="" />
+
+    <meta name="robots" content="all" />
+    <meta name="google-site-verification" content="" />
+
+    <meta property="og:site_name" content="">
+    <meta property="og:type" content="site web">
+    <meta property="og:url" content="https://github.com/Chaplin16/Portfolio">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css" />
+
     <title>Tarifs de location des vélos à la Grande Motte</title>
 </head>
+
 <body>
     <!-- NAVBAR -->
     <header>
@@ -68,78 +70,61 @@
     <main class="pt-5">
         <!-- tableau des prix  -->
         <div class="price m-auto pt-5 text-center">
-          <table class="table mt-5 table-striped">
-              <h1 class="title fw-bold">TARIFS DE LOCATION DES VELOS</h1>
-              <tbody>
-                  <tr>
-                      <td>de 1 heure à 4 heures :</td>
-                      <td>22 €</td>
-                  </tr>
-                  <tr>
-                      <td>une journée :</td>
-                      <td>35 €</td>
-                  </tr>
-                  <tr>
-                      <td>deux journées :</td>
-                      <td>59 €</td>
-                  </tr>
-                  <tr>
-                    <td id="reservation">trois journées :</td>
-                    <td>74 €</td>
-                  </tr>
-                  <tr>
-                    <td>la semaine :</td>
-                    <td>99 €</td>
-                  </tr>
-              </tbody>
-          </table>
-          <h2 class="p-3 pt-5  fw-bold">RESERVATION <br>
+            <table class="table mt-5 table-striped">
+                <h1 class="title fw-bold">TARIFS DE LOCATION DES VELOS</h1>
+                <tbody>
+                    <tr>
+                        <td>de 1 heure à 4 heures :</td>
+                        <td>22 €</td>
+                    </tr>
+                    <tr>
+                        <td>une journée :</td>
+                        <td>35 €</td>
+                    </tr>
+                    <tr>
+                        <td>deux journées :</td>
+                        <td>59 €</td>
+                    </tr>
+                    <tr>
+                        <td id="reservation">trois journées :</td>
+                        <td>74 €</td>
+                    </tr>
+                    <tr>
+                        <td>la semaine :</td>
+                        <td>99 €</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2 class="p-3 pt-5  fw-bold">RESERVATION <br>
                 via ce formulaire ou par téléphone 06.31.76.61.71</h2>
         </div>
         <!-- formualire de contact  -->
         <section class="form" id="contact">
-            <h3 class="m-2 pb-3 text-center">
-                <img src="images/reservation-location-velo-par-mail.png" alt="icone pour envoyer un message"/>
+            <h3 class="m-2 pb-3 text-center fw-bold">
+                <img src="images/reservation-location-velo-par-mail.png" alt="icone pour envoyer un message" />
                 Formulaire de contact
             </h3>
             <form name="myForm" id="formContact">
                 <label for="username">Nom </label>
-                <input class="username form-field"
-                    type="text" 
-                    name="username" id="username"
-                    title="Veuillez n'écrire que des lettres, entre 2 et 30 caractères" 
-                    pattern="[A-z-_ çàâéèeîïù]{2,30}" placeholder="Jean"
-                    required/>
+                <input class="username form-field" type="text" name="username" id="username"
+                    title="Veuillez n'écrire que des lettres, entre 2 et 30 caractères"
+                    pattern="[A-z-_ çàâéèeîïù]{2,30}" placeholder="Jean" required />
                 <label for="email">E-mail</label>
-                <input class="email form-field"
-                    type="email"
-                    name="email"
-                    id="email"
-                    title="Veuillez écrire un mail valide"
-                    pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}" 
-                    placeholder="dupond@site.fr" 
-                    required />
+                <input class="email form-field" type="email" name="email" id="email"
+                    title="Veuillez écrire un mail valide" pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}"
+                    placeholder="dupond@site.fr" required />
                 <label for="message">Votre message</label>
-                <textarea class="message form-control form-field" 
-                    id="message"
-                    name="message"
-                    minlength="20"
-                    maxlength="500"
-                    rows="6"
-                    title="Votre message doit contenir entre 20 et 500 caratères sans caractère spéciaux"
-                    required >
-                </textarea>
+                <textarea class="message form-control form-field" id="message" name="message" minlength="20"
+                    maxlength="500" rows="6"
+                    title="Votre message doit contenir entre 20 et 500 caratères sans caractère spéciaux" required>
+                    </textarea>
                 <label for="phone">Téléphone (facultatif)</label>
-                <input class="phone form-field" 
-                    type="text" 
-                    name="phone" 
-                    id="phone"
-                    title="Veuillez écrire un numéro de téléphone viable" 
-                     />
-                <input type="submit" id="btnSubmitMessage" class="btn_enter mt-3" name="submit" value="Envoyer">
+                <input class="phone form-field" type="text" name="phone" id="phone"
+                    title="Veuillez écrire un numéro de téléphone viable" />
+                <input type="submit" id="btnSubmitMessage" class="btn_enter mt-3 fw-bold" name="submit" value="Envoyer">
             </form>
         </section>
-        <p class="rgpd pt-3 pb-5">Aucune donnée personnelle n’est conservée par le site internet via ce formulaire</p>
+        <p class="rgpd pt-3 pb-5 fw-bold">Aucune donnée personnelle n’est conservée par le site internet via ce formulaire</p>
     </main>
 
     <footer>
@@ -162,14 +147,17 @@
         </div>
     </footer>
 
-    <script src= "https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
 
     <script>
-        (function() {
+        (function () {
             emailjs.init('user_izTwa1DWUBn1msswZXxVJ');
-        })() ;
+        })();
     </script>
     <script src="js/form.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

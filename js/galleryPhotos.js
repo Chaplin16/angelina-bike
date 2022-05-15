@@ -3,7 +3,7 @@ function carousel(selector, data) {
     let element = document.querySelector(selector);
     data.forEach(function(e) {
         element.innerHTML += 
-        `<div class="card-img"><img style="width:100%; height:15.5rem; border:transparent; object-fit:cover; padding-left:3px; padding-right:3px;" src="${e.link}" alt="${e.alt}"></div>`;
+        `<div class="card-img"><img style="width:100%; height:16.5rem; border:transparent; object-fit:cover; padding-left:3px; padding-right:3px;" src="${e.link}" alt="${e.alt}"></div>`;
     });
     $(element).slick({
         centerMode: true,
@@ -15,6 +15,7 @@ function carousel(selector, data) {
         adaptiveHeight: true,
         autoplaySpeed:1200,
         autoplay: true,
+        pauseOnHover:false,
         responsive: [
             {
                 breakpoint: 1550,

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8" />
@@ -23,6 +22,10 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
     <link rel="stylesheet" href="style.css" />
 
@@ -68,15 +71,32 @@
         </nav>
     </header>
     <main class="pt-5">
-        <div class="d-flex mt-5 pt-5 justify-content-around mappy">
+        <div class="d-flex mt-5 pt-5 pb-5 justify-content-around mappy">
             <div style="width:30%;" class="text-center pt-5">
-                <img style="width:250px; height:auto" class="" src="images/location-velo-electrique-grande-motte-angelina-bike.jpeg" alt="location de velo a la grande motte chez angelina bike">
+                <img style="width:250px; height:auto" class=""
+                    src="images/location-velo-electrique-grande-motte-angelina-bike.jpeg"
+                    alt="location de velo a la grande motte chez angelina bike">
                 <div class="pt-4">
-                    Notre magasin <strong>Angélina Bike</strong> vous accueille toute l'année au 4, place Diana à la Grande Motte (tout au bout de l'avenue de l'Europe, à quelques mètres du front de mer).
+                    Notre magasin <strong>Angélina Bike</strong> vous accueille toute l'année au 4, place Diana à la
+                    Grande Motte (tout au bout de l'avenue de l'Europe, à quelques mètres du front de mer).
                 </div>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.3599668422917!2d4.0887789510676305!3d43.55738187902225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6978cdf4e893d%3A0xeeff4f4e79a50e69!2s4%20Pl.%20Diana%2C%2034280%20La%20Grande-Motte!5e0!3m2!1sfr!2sfr!4v1652561993523!5m2!1sfr!2sfr" width="60%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.3599668422917!2d4.0887789510676305!3d43.55738187902225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6978cdf4e893d%3A0xeeff4f4e79a50e69!2s4%20Pl.%20Diana%2C%2034280%20La%20Grande-Motte!5e0!3m2!1sfr!2sfr!4v1652561993523!5m2!1sfr!2sfr"
+                width="60%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+        <section>
+            <div class="text-center my-3">
+                <div class="row mx-auto my-auto justify-content-center">
+                    <div data-bs-ride="carousel">
+                        <div class="carousel-slick carousel">
+                            <!-- insertion via galleryPhotos.js et velo.js-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
     <footer>
@@ -99,11 +119,16 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous"></script>
+    <script src="js/velo.js"></script>
+    <script src="js/galleryPhotos.js"></script>
 
 </body>
 

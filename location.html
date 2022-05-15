@@ -97,7 +97,7 @@
                 via ce formulaire ou par téléphone 06.31.76.61.71</h2>
         </div>
         <!-- formualire de contact  -->
-        <section class="form pb-5" id="contact">
+        <section class="form" id="contact">
             <h3 class="m-2 pb-3 text-center">
                 <img src="images/reservation-location-velo-par-mail.png" alt="icone pour envoyer un message"/>
                 Formulaire de contact
@@ -111,9 +111,9 @@
                     pattern="[A-z-_ çàâéèeîïù]{2,30}" placeholder="Jean"
                     required/>
                 <label for="email">E-mail</label>
-                <input class="email form-field"             
-                    type="email" 
-                    name="email"    
+                <input class="email form-field"
+                    type="email"
+                    name="email"
                     id="email"
                     title="Veuillez écrire un mail valide"
                     pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}" 
@@ -121,15 +121,15 @@
                     required />
                 <label for="message">Votre message</label>
                 <textarea class="message form-control form-field" 
-                    id="message" 
+                    id="message"
                     name="message"
-                    minlength="15" 
-                    maxlength="500" 
+                    minlength="20"
+                    maxlength="500"
                     rows="6"
-                    title="Votre message doit contenir entre 15 et 500 caratères sans caractère spéciaux"
+                    title="Votre message doit contenir entre 20 et 500 caratères sans caractère spéciaux"
                     required >
                 </textarea>
-                <label for="phone">Téléphone</label>
+                <label for="phone">Téléphone (facultatif)</label>
                 <input class="phone form-field" 
                     type="text" 
                     name="phone" 
@@ -139,6 +139,7 @@
                 <input type="submit" id="btnSubmitMessage" class="btn_enter mt-3" name="submit" value="Envoyer">
             </form>
         </section>
+        <p class="rgpd pt-3 pb-5">Aucune donnée personnelle n’est conservée par le site internet via ce formulaire</p>
     </main>
 
     <footer>

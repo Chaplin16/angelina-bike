@@ -52,6 +52,9 @@ h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.title-img{
+    width:180px;
+}
 .text{
     max-width: 80%;
     margin:auto;
@@ -115,11 +118,12 @@ h3{
     max-width: 80%;
     padding-top: 10rem!important;
     color: $green;
-
 }
+
 .table-striped>tbody>tr:nth-of-type(odd) {
     --bs-table-accent-bg: rgba(18, 126, 23,0.1);
 }
+
 .table{
     border: 2px solid $grey;
 }
@@ -215,6 +219,12 @@ label{
     }
 }
 
+.rgpd{
+    max-width: 80%;
+    margin:auto;
+
+}
+
 // PAGE CONTACT
 .mappy{
     img{
@@ -227,6 +237,9 @@ label{
 @media screen and (max-width: 580px) {
     .footer{
         flex-direction: column;
+    }
+    .text{
+        max-width: 95%;
     }
 }
 

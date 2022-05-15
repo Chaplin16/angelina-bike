@@ -46,6 +46,10 @@ h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+.title-img {
+  width: 180px;
+}
+
 .text {
   max-width: 80%;
   margin: auto;
@@ -208,6 +212,11 @@ label {
   color: #000;
 }
 
+.rgpd {
+  max-width: 80%;
+  margin: auto;
+}
+
 .mappy img {
   box-shadow: 5px 5px 4px #636363;
   border-radius: 10px;
@@ -216,6 +225,10 @@ label {
 @media screen and (max-width: 580px) {
   .footer {
     flex-direction: column;
+  }
+
+  .text {
+    max-width: 95%;
   }
 }
 @media screen and (max-width: 850px) {

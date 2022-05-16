@@ -53,6 +53,9 @@ h3 {
 .row > * {
   max-width: 95% !important;
 }
+.row > * .slick-slide img {
+  object-fit: contain !important;
+}
 
 .text {
   max-width: 80%;

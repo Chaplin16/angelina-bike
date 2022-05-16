@@ -16,7 +16,6 @@ html {
 }
 
 .navbar {
-  position: fixed;
   opacity: 1;
   background-color: #fff;
   z-index: 5;
@@ -49,6 +48,10 @@ h3 {
 
 .title-img {
   width: 180px;
+}
+
+.row > * {
+  max-width: 95% !important;
 }
 
 .text {
@@ -282,6 +285,10 @@ label {
   }
   .mappy iframe {
     margin-top: 2rem;
+  }
+
+  .nav-link {
+    padding-left: 1rem !important;
   }
 }
 

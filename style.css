@@ -87,6 +87,7 @@ h3 {
 }
 .bike a {
   color: #1c9b23;
+  font-weight: 700;
   text-decoration: none !important;
 }
 .bike a:hover {

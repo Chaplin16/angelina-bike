@@ -6,11 +6,12 @@ const cardServices = [
                 title: "Nos Prestations",
                 detail: [
                     "Location de vélos",
-                    "Location de trottinettes",
-                    "Location de motos",
-                    "Location de quads enfant",
-                    "Location de 4x4 enfants",
                     "Location de draisiennes",
+                    "Vente de trottinettes",
+                    "Vente de motos adultes",
+                    "Vente de moto-cross enfants (piwi)",
+                    "Vente de quads enfant",
+                    "Vente de 4x4 enfants",
                 ],
             }
         ]
